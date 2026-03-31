@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Pro - Random & Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokédex Ultra</h1>
+        
+        <div id="pokemonDisplay" class="display-card">
+            <p>Pronto per l'estrazione?</p>
+            <button id="randomBtn">Estrai Pokémon Random</button>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Cerca Pokémon per nome o numero...">
+            <p id="excludedCount">Pokémon esclusi: 0</p>
+        </div>
+
+        <hr>
+
+        <h2>Lista Completa</h2>
+        <div id="pokedexList" class="pokedex-grid">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
