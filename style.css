@@ -9,25 +9,3 @@ button:hover { background: #d11515; }
 .type { padding: 5px 10px; border-radius: 20px; color: white; font-size: 0.8em; margin: 2px; display: inline-block; }
 /* Colore esempio per tipo */
 .fire { background: #F08030; } .water { background: #6890F0; } .grass { background: #78C850; }
-
-.search-container { margin: 20px 0; }
-#searchInput { 
-    width: 80%; padding: 12px; border-radius: 25px; border: 2px solid #ff1c1c; 
-    font-size: 1rem; outline: none;
-}
-
-.pk-item { 
-    position: relative; background: #fff; padding: 15px 10px; 
-    border-radius: 8px; border: 1px solid #ddd; transition: 0.2s;
-}
-
-.pk-item.excluded { opacity: 0.4; background: #e0e0e0; text-decoration: line-through; }
-
-.exclude-btn {
-    display: block; margin-top: 8px; background: #555; color: white;
-    border: none; border-radius: 4px; font-size: 0.7em; cursor: pointer; padding: 4px;
-}
-
-.exclude-btn.is-excluded { background: #28a745; content: "Includi"; }
-
-#excludedCount { font-size: 0.8em; color: #666; margin-top: 5px; }
